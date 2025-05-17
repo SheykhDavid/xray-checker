@@ -1,7 +1,7 @@
 {{ define "index.html" }}
 <html>
   <head>
-    <title>Xray Checker</title>
+    <title>Demon Services Monitor</title>
     <style>
       :root {
         --bg-color: #ffffff;
@@ -343,23 +343,11 @@
     <div class="info-grid">
       <a href="./metrics" class="documentation-link"> 📊 Metrics </a>
       <a href="./health" class="documentation-link"> ❤️ Health </a>
-      <a
-        href="https://xray-checker.kutovoy.dev"
-        target="_blank"
-        class="documentation-link"
-      >
-        📚 Documentation
-      </a>
     </div>
 
     {{ if .Endpoints }}
     <h2>Config Endpoints</h2>
-    <div class="info-box warning">
-      <strong>Important:</strong> The URLs listed below can be used for status
-      monitoring in systems like Uptime-Kuma. The endpoint will return status
-      200 OK if the proxy is working, and status 503 Service Unavailable if it's
-      not functioning.
-    </div>
+    
     <ul class="endpoints">
       {{ range .Endpoints }}
       <li>
@@ -386,7 +374,7 @@
         >GitHub Repository</a
       >
       | Made with ❤️ by
-      <a href="https://github.com/kutovoys" target="_blank">kutovoys</a>
+      <a href="https://t.me/PingMeNot" target="_blank">Devil!</a>
     </div>
 
     <script>
